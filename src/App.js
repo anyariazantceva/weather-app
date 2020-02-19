@@ -6,21 +6,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Time and Weather</h1>
+        <div>
+        <img className="h-icon" alt="clock" src="./time.png"/> 
+        <br />
+        <img className="h-icon" alt="cloud" src="./cloud.png"/>
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          By Anna Riazantceva and David Hauser
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
 }
+
 
 export default App;
