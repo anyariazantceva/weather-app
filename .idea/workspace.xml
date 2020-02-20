@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ee009a1-91a5-48d2-bad4-5bac6307b979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Weather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WeatherWrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -27,6 +26,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,11 +68,46 @@
       <option name="presentableId" value="Default" />
       <updated>1582113065669</updated>
       <workItem from="1582113068031" duration="1614000" />
-      <workItem from="1582202001162" duration="1279000" />
+      <workItem from="1582202001162" duration="2216000" />
+      <workItem from="1582222067342" duration="6991000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Footer component">
+      <created>1582203420449</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582203420449</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Footer component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Footer component" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1582203418211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582203418211" />
+    <state width="1339" height="164" key="GridCell.Tab.0.bottom" timestamp="1582227169672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1339" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
+    <state width="1339" height="164" key="GridCell.Tab.0.center" timestamp="1582227169672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1339" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
+    <state width="1339" height="164" key="GridCell.Tab.0.left" timestamp="1582227169672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1339" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
+    <state width="1339" height="164" key="GridCell.Tab.0.right" timestamp="1582227169672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1339" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
   </component>
 </project>
