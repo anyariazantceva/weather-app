@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './Weather.css';
 
 const API_KEY = 'be98995764ebb14bdc5bae72c87e1fc4';
 
@@ -36,7 +36,19 @@ export default class Weather extends Component {
         const {city, country, celsius, description } = this.state;
         return (
             <div className='weather__item'>
-                {city} {country} {celsius} {description}
+                <div className="weather__city">
+                    City: {city}
+                </div>
+                <div className="weather__country">
+                    Country: {country}
+                </div>
+                <div className="weather__celcius">
+                    Degrees in celsius: {celsius}
+                </div>
+                <div className="weather__description">
+                    {description}
+                </div>
+
             </div>
         )
     }
