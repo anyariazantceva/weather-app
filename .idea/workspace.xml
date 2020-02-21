@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ee009a1-91a5-48d2-bad4-5bac6307b979" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Weather.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeatherWrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeatherWrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeatherWrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +66,8 @@
       <updated>1582113065669</updated>
       <workItem from="1582113068031" duration="1614000" />
       <workItem from="1582202001162" duration="2216000" />
-      <workItem from="1582222067342" duration="7758000" />
+      <workItem from="1582222067342" duration="8134000" />
+      <workItem from="1582270006762" duration="2769000" />
     </task>
     <task id="LOCAL-00001" summary="Created Footer component">
       <created>1582203420449</created>
@@ -86,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582229294884</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Wrote some css styles">
+      <created>1582230095688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582230095688</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,28 +99,33 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Footer component" />
     <MESSAGE value="Created Weather component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Weather component" />
+    <MESSAGE value="Wrote some css styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote some css styles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1582229289274">
+    <state x="197" y="0" key="CommitChangelistDialog2" timestamp="1582230093979">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582229289274" />
-    <state width="1339" height="164" key="GridCell.Tab.0.bottom" timestamp="1582227169672">
+    <state x="197" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582230093979" />
+    <state width="1339" height="164" key="GridCell.Tab.0.bottom" timestamp="1582230374210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
-    <state width="1339" height="164" key="GridCell.Tab.0.center" timestamp="1582227169672">
+    <state width="1339" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582230374210" />
+    <state width="1339" height="164" key="GridCell.Tab.0.center" timestamp="1582230374209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
-    <state width="1339" height="164" key="GridCell.Tab.0.left" timestamp="1582227169672">
+    <state width="1339" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582230374209" />
+    <state width="1339" height="164" key="GridCell.Tab.0.left" timestamp="1582230374209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
-    <state width="1339" height="164" key="GridCell.Tab.0.right" timestamp="1582227169672">
+    <state width="1339" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582230374209" />
+    <state width="1339" height="164" key="GridCell.Tab.0.right" timestamp="1582230374210">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1339" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582227169672" />
+    <state width="1339" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582230374210" />
+    <state x="439" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582277224172">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="439" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582277224172" />
   </component>
 </project>
