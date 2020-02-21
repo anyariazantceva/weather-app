@@ -1,0 +1,32 @@
+.footer {
+    background-image: linear-gradient( to right bottom, rgba(150, 110, 250), rgba(214, 160, 5));
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 1.5rem;
+}
+
+.footer__left {
+    width: 20%;
+}
+
+.footer__right {
+    width: 20%;
+}
+
+.footer__right-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__right-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__right-link:hover {
+    text-decoration: underline;
+}
