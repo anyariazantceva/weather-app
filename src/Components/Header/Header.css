@@ -1,0 +1,35 @@
+.h-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 120%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    background-size: cover;
+    background-position: top;
+}
+.span1 {
+color: #fee140;
+font-size: 150%;
+}
+.span2 {
+    color: #fa709a;
+    font-size: 150%;
+}
+
+.h-icon-div {
+display: flex;
+justify-content: center;
+align-items: center;
+/*vertical alignment of items in div*/
+}
+
+.h-icon {
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    z-index: 1000;
+}
