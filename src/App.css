@@ -1,9 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;                
+
+}
 .App {
+   min-height: 100%;
+   position: relative;
+   overflow: hidden;
     
-    background-color: rgb(58, 57, 57, 0.7);
-    padding: 1rem;
 }
 
 .main {
-    padding: 0 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 68vh;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 1rem;
+}
+
+.time__wrap {
+    display: flex;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
 }

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Weather.css';
+import IconChange from './Components/IconChange/IconChange';
 
 const API_KEY = 'be98995764ebb14bdc5bae72c87e1fc4';
 
@@ -35,20 +36,21 @@ export default class Weather extends Component {
     render() {
         const {city, country, celsius, description } = this.state;
         return (
-            <div className='weather__item'>
-                <div className="weather__city">
-                    City: {city}
+            <div className='list__div'>
+                <IconChange desc={this.state.description}/>
+                
+                <div className="weather__city weather__info">
+                    <p className="list__p">City: {city}</p>
                 </div>
-                <div className="weather__country">
-                    Country: {country}
+                <div className="weather__country weather__info">
+                    <p className="list__p">Country: {country}</p>
                 </div>
-                <div className="weather__celcius">
-                    Degrees in celsius: {celsius}
+                <div className="weather__celcius weather__info">
+                    <p className="list__p">Degrees in celsius: {celsius}</p>
                 </div>
-                <div className="weather__description">
-                    {description}
+                <div className="weather__description weather__info">
+                    <p className="list__p description">{description}</p>
                 </div>
-
             </div>
         )
     }

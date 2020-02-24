@@ -54,10 +54,12 @@ export default class App extends Component {
         <div className="App">
           <Header />
           <main className="main">
-          <ListItem data={this.state.europe} />
-          <ListItem data={this.state.usa} />
-          <ListItem data={this.state.asia} />
-          <ListItem data={this.state.africa} />
+          <div className="time__wrap">
+            <ListItem data={this.state.europe} />
+            <ListItem data={this.state.usa} />
+            <ListItem data={this.state.asia} />
+            <ListItem data={this.state.africa} />
+          </div>
           <WeatherWrap/>
           </main>
           <Footer/>

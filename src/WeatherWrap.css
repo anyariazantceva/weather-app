@@ -1,10 +1,8 @@
-.weather__wrapper {
-    background-color: #fff;
+.weather__wrap {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     font-weight: bold;
-    padding: 1.5rem;
+    padding: 1rem;
 }
+

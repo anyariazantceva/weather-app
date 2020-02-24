@@ -1,0 +1,12 @@
+.h__icon__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*vertical alignment of items in div*/
+    }
+    
+    .h__icon {
+        width: 5rem;
+        height: 5rem;
+        z-index: 1000;
+    }

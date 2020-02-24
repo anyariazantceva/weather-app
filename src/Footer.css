@@ -1,12 +1,13 @@
 .footer {
-    background-image: linear-gradient( to right bottom, rgba(150, 110, 250), rgba(214, 160, 5));
+    background-color: #5832a8;
     background-size: cover;
     background-position: top;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #fff;
     padding: 1.5rem;
+    font-weight: bold;
 }
 
 .footer__left {
@@ -23,10 +24,20 @@
 }
 
 .footer__right-link {
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
 .footer__right-link:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 460px) {
+    .footer__right {
+        width: 37%;
+    }
+    .footer__right-item {
+        margin-right: 1rem;
+    }
+    
 }

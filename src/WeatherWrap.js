@@ -4,20 +4,15 @@ import './WeatherWrap.css'
 
 
 export default class WeatherWrap extends Component {
-    constructor(props) {
-        super(props);
-
-    }
-
+    
     render() {
         return (
-            <div className='weather__wrapper'>
-                <Weather city='Helsinki' country='finland'/>
-                <Weather city='New York City' country='usa'/>
-                <Weather city='Singapore' country='singapore'/>
-                <Weather city='Lagos' country='nigeria'/>
+            <div className="weather__wrap">
+                <Weather className='list__div' city='Helsinki' country='finland'/>
+                <Weather className='list__div' city='New York City' country='usa'/>
+                <Weather className='list__div' city='Singapore' country='singapore'/>
+                <Weather className='list__div' city='Lagos' country='nigeria'/>
             </div>
-
         )
     }
 }
