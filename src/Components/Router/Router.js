@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter as Router, Link, Route} from "react-router-dom";
-import WeatherWrap from "../../WeatherWrap";
+import WeatherWrap from "../WeatherWrap/WeatherWrap";
 import List from "../List/List";
 import './Router.css';
 

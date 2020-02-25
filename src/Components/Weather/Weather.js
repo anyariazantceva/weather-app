@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Weather.css';
-import IconChange from './Components/IconChange/IconChange';
+import IconChange from '../IconChange/IconChange';
 
 const API_KEY = 'be98995764ebb14bdc5bae72c87e1fc4';
 
