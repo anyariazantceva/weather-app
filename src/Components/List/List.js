@@ -12,6 +12,7 @@ export default class List extends Component {
         }
     }
     componentDidMount() {
+
         this.getFinland()
             .then(response => response.json())
             .then(Helsinki => this.setState({europe: Helsinki}));
@@ -24,6 +25,7 @@ export default class List extends Component {
         this.getLagos()
             .then(response => response.json())
             .then(Lagos => this.setState({africa: Lagos}));
+
     };
 
     getFinland() {
@@ -41,6 +43,7 @@ export default class List extends Component {
     getLagos() {
         return fetch('http://worldtimeapi.org/api/timezone/Africa/Lagos');
     };
+
 
     render() {
         return (

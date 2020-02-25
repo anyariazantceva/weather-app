@@ -3,6 +3,7 @@ import './ListItem.css';
 import time from '../../img/time.png'
 
 const ListItem = (props) => {
+        console.log(props);
         return (
             <div className="list__div">
                 <img className="h__icon" alt="clock" src={time}/> 

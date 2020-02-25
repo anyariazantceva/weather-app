@@ -3,8 +3,9 @@ import ListItem from './Components/ListItem/ListItem.js';
 import Header from './Components/Header/Header.js';
 import './App.css';
 import Footer from "./Footer";
-import WeatherWrap from "./WeatherWrap";
-import List from "./Components/List/List";
+import RouterComponent from "./Components/Router/Router";
+
+
 
 export default class App extends Component {
     constructor() {
@@ -16,10 +17,7 @@ export default class App extends Component {
       return (
         <div className="App">
             <Header />
-            <main className="main">
-                <List/>
-                <WeatherWrap/>
-            </main>
+            <RouterComponent/>
             <Footer/>
 
         </div>
