@@ -1,7 +1,7 @@
 
 .list__div {
     height: 20rem;
-    width: 25rem;
+    width: 20rem;
     display: flex;
     align-items:center;
     justify-content: space-evenly;
@@ -28,6 +28,12 @@
     box-shadow: 4px 8px 16px rgba(0, 0, 0, .5);
 }
 
+.div__icon {
+    width: 5rem;
+    height: 5rem;
+    z-index: 1000;
+}
+
 .list__p{
     display: flex;
     margin: 0;
@@ -43,6 +49,5 @@
     .list__div {
         height: 20rem;
         width: 20rem;
-      
     }
 }

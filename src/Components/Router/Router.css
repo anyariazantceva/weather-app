@@ -35,3 +35,11 @@
 .toggle-weather__item {
     margin-right: 1rem;
 }
+
+
+@media screen and (max-width: 460px) {
+    .toggle__title {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}

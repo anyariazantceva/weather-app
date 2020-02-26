@@ -7,9 +7,6 @@ import RouterComponent from "./Components/Router/Router";
 
 
 export default class App extends Component {
-    constructor() {
-        super()
-    }
 
     render() {
       return (
@@ -17,7 +14,6 @@ export default class App extends Component {
             <Header />
             <RouterComponent/>
             <Footer/>
-
         </div>
     );
   } 
