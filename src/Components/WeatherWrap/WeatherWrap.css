@@ -1,8 +1,0 @@
-.weather__wrap {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    font-weight: bold;
-    padding: 1rem;
-}
-
