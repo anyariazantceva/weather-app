@@ -9,7 +9,7 @@ import summer from '../../img/summer.png';
 
 
 export default function IconChange(props) {
-
+// eslint-disable-next-line
     let image;
 
     if (this.props.desc.includes('cloud') === true) {
