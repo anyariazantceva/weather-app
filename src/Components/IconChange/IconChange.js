@@ -12,7 +12,7 @@ export default function IconChange(props) {
 
     let image;
 
-    if (props.desc.includes('cloud') === true) {
+    if (this.props.desc.includes('cloud') === true) {
         return image = <div><img className="h__icon" alt='cloud' src={cloud} /></div>; 
     } else if (props.desc.includes('rain') === true) {
         return image = <div><img className="h__icon" alt='rain' src={rain} /></div>; 
